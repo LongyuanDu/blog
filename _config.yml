@@ -1,13 +1,13 @@
 title:             MOUNTAIN DU
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
+email:             dulongyuan@gmail.com
+description:       The mountains are calling, and I must go. 
 author:            Longyuan Du
 baseurl:           ""
 url:               "http://blackrockdigital.github.io"
 
 # Social Profiles
 twitter_username:  SBootstrap
-github_username:   BlackrockDigital
+# github_username:   BlackrockDigital
 facebook_username: StartBootstrap
 
 # Build settings
