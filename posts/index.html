@@ -14,6 +14,7 @@ background: '/img/bg-post.jpg'
     {% else %}
     <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
     {% endif %}
+    <img class = "img-fluid"  src= '{{ post.background | prepend: site.baseurl | replace: '//', '/' }}' </img>
   </a>
   <p class="post-meta">Posted by
     {% if post.author %}
