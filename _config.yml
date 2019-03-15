@@ -2,7 +2,7 @@ title:             MOUNTAIN DU
 email:             dulongyuan@gmail.com
 description:       The mountains are calling, and I must go.
 author:            Longyuan Du
-baseurl:           "http://www.longyuandu.com/blog"
+#baseurl:           "http://www.longyuandu.com/blog"
 url:               "http://www.longyuandu.com/blog"
 
 # Social Profiles
