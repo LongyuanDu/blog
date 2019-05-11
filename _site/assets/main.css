@@ -311,3 +311,7 @@ footer {
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px; }
+
+.container {
+  width: 150%;
+  max-width: 1300px; }
