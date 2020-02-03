@@ -6,9 +6,9 @@ author:            Longyuan Du
 url:               "http://www.longyuandu.com/blog/"
 
 # Social Profiles
-twitter_username:  SBootstrap
+# twitter_username:  SBootstrap
 # github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+# acebook_username: StartBootstrap
 
 # Build settings
 markdown:          kramdown
