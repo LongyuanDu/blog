@@ -2,7 +2,7 @@ title:             MOUNTAIN DU
 email:             dulongyuan@gmail.com
 description:       The mountains are calling and I must go.  - John Muir
 author:            Longyuan Du
-baseurl:           "/blog/"
+# baseurl:           "/blog/"
 url:               "http://www.longyuandu.com/blog/"
 
 # Social Profiles
