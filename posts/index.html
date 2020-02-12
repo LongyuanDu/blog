@@ -8,6 +8,15 @@ background: '/img/posts/donjek/DSC06583.jpg'
 
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+    <p class="post-meta">
+      <!-- Posted by -->
+      <!-- {% if post.author %}
+      {{ post.author }}
+      {% else %}
+      {{ site.author }}
+      {% endif %} -->
+      <!-- on  -->
+      {{ post.date | date: '%B %d, %Y' }} </p>
     <h2 class="post-title">{{ post.title }}</h2>
     {% if post.subtitle %}
     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
@@ -16,13 +25,7 @@ background: '/img/posts/donjek/DSC06583.jpg'
     {% endif %}
     <img class = "img-fluid"  src= '{{ post.background | prepend: site.baseurl | replace: '//', '/' }}' </img>
   </a>
-  <p class="post-meta">Posted by
-    {% if post.author %}
-    {{ post.author }}
-    {% else %}
-    {{ site.author }}
-    {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}</p>
+
 </article>
 
 <hr>
