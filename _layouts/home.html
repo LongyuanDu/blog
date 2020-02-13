@@ -50,7 +50,7 @@ layout: default
             <h3 class="post-subtitle">{{ post.subtitle }}</h3>
 
             {% else %}
-            <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 30 }}</h3>
+            <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 50 }}</h3>
             {% endif %}
 
             <img class = "img-fluid"  src= '{{ post.background | prepend: site.baseurl | replace: '//', '/' }}' </img>
@@ -65,7 +65,7 @@ layout: default
 
         <!-- Pager -->
         <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+          <a class="btn btn-primary float-right" href="{{"/posts/page2" | relative_url }}">View More Posts &rarr;</a>
         </div>
 
       </div>

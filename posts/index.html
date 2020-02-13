@@ -21,7 +21,7 @@ background: '/img/posts/donjek/DSC06583.jpg'
     {% if post.subtitle %}
     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
     {% else %}
-    <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 30 }}</h3>
+    <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 50 }}</h3>
     {% endif %}
     <img class = "img-fluid"  src= '{{ post.background | prepend: site.baseurl | replace: '//', '/' }}' </img>
   </a>
